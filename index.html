@@ -19,7 +19,7 @@
                         <li><a href="#services">Services</a></li>
                         <li><a href="#">Portfolio</a></li>
                         <li><a href="#">About me</a></li>
-                        <li><a href="#">Get in touch</a></li>
+                        <li><a href="#get-in-touch">Get in touch</a></li>
                     </ul>
                 </nav>
             </div>
@@ -38,15 +38,15 @@
                 <button class="order-button" type="button">Order one Now!</button>
             </div>
 
-<a href="" class="scroll-down">Scroll down</a>
+            <a href="" class="scroll-down">Scroll down</a>
         </div>
     </header>
     <section id="services" class="text-center">
         <div class="container">
             <!-- Section title -->
-            
-                <h1>I can help you with</h1>
-            
+
+            <h1>I can help you with</h1>
+
             <div class="clearfix">
                 <div class="col-xs-4">
                     <div class="section-img"><i class="icon icon-design"></i></div>
@@ -54,7 +54,8 @@
                     </h2>
                     <div class="section-content">
                         <p>Do you have an idea for website? I create simple and beautiful websites that reflects your personal
-                            taste.</p>
+                            taste.
+                        </p>
                     </div>
                 </div>
                 <div class="col-xs-4">
@@ -75,9 +76,62 @@
                             offer my skills.</p>
                     </div>
                 </div>
-          
+
+            </div>
+    </section>
+
+    <section id="get-in-touch">
+        <div class="container">
+            <form action="/contact" method="get">
+            <div>
+                <label for="name"> </label>
+                <input id="name" type="text" name="Vardas" placeholder="Your name:">
+            </div>
+                <div>
+                    <label>
+                        Your budget: 
+                <input type="number" name="Biudzetas">
+                    </label>
+                </div>
+                <div>
+                    <label >
+                        Select project type: 
+                    <select name="type">
+                        <option value="1">HTML</option>
+                        <option value="2">HTML + CSS</option>
+                        <option value="3">Full app</option>
+                    </select>
+                    </label>
+                </div>
+                <div>
+                    <label>
+                        Enter a description: 
+                    <textarea name="description" cols="20" rows="5"></textarea>
+                    </label>
+                </div>
+                <div>
+                    <input type="file" name="failas">
+                </div>
+                <div>
+                    Do you kneed a design?
+                    <label>
+                        Yes
+                        <input type="radio" value"1" name="design-needed">
+                    </label>
+                    <label>
+                        No
+                        <input type="radio" value"2" name="design-needed">
+                    </label>
+                </div>
+                <input type="password" name"slaptazodis">
+                <input type="search" name"paieska">
+            </form>
         </div>
     </section>
+
+
+
+
 </body>
 
 
