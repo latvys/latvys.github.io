@@ -1,6 +1,6 @@
 body {
     font-family: 'Open Sans', sans-serif;
-    font-weight: bold;
+    font-weight: normal;
 }
 
 /*  Header   */
@@ -187,3 +187,131 @@ section {
     margin-top: 0;
     line-height: 1.3;
 }
+
+.in-touch-header {
+    margin-bottom: 0px;
+}
+
+.stopping-by {
+    margin: 35px 0;
+    font-size: 18px;
+}
+
+#get-in-touch {
+    color: #999999;
+    margin-bottom: 40px;
+    border-top: solid 1px lightgrey;
+}
+
+.tell-more-p {
+    line-height: 30px;
+    margin-top: 0;
+}
+
+.col-xs-6 {
+    width: 45%;
+    float: left;
+    text-align: left;
+    font-size: 14px;
+}
+
+.location {
+    margin-top: 40px;
+}
+
+
+.tell-more {
+    padding-right: 5%;
+}
+
+
+.forms {
+    padding-left: 5%;
+}
+
+.icon-small {
+   background-image: url(../images/icons.png);
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background-repeat: no-repeat;
+}
+
+.icon-small:hover {
+    background-position-y: -20px;
+}
+
+.icon-location {
+    background-position-x: -60px;
+}
+
+textarea {
+    height: 110px;
+    width: 100%;
+    border-radius: 2px;
+    border: 1px solid lightgrey;
+    font-weight: bold;
+    box-sizing:border-box;
+    color: #9999a8;
+}
+
+input {
+    margin-top: 10px;
+    width: 100%;
+    border-radius: 2px;
+    border: 1px solid lightgrey;
+    font-weight: bold;
+    box-sizing:border-box;
+    height: 30px;
+    color: #9999a8;
+}
+.submit {
+    text-align: right;
+}
+
+input[type=submit] {
+    margin-top: 10px;
+    text-align: right;
+    cursor: pointer;
+    border-top-color: #5bb5fd ;
+    border-bottom-color: #00508d ;
+    border-left-color: transparent;
+    border-right: transparent;
+    background: linear-gradient(to bottom, #399cee  0%,#0060a7  100%);
+    font-size: 14px;
+    border-radius: 3px;
+    font-weight: bold;
+    color: #fff;
+    border-width: 1px;
+    border-style: solid;
+    width: 75px;
+    height: 36px;
+    text-align: center;
+}
+
+input[type=submit]:hover {
+        background: linear-gradient(to bottom, #3a9cee  0%,#0078d1  100%);
+}
+
+#footer {
+    border-top: 1px solid lightgrey;
+    padding-top: 30px;
+}
+
+.copyright {
+
+    line-height: 25px;
+    font-size: 12px;
+    color: #999; 
+    margin-bottom: 20px;
+}
+
+.copyright a {
+text-decoration: none;
+color: lightskyblue;
+}
+
+.icon-twitter {
+    background-position-x: -20px;
+}
+
