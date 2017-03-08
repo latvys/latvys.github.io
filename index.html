@@ -5,9 +5,10 @@
     <meta charset="UTF-8">
     <title>WEBSITE</title>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&amp;subset=latin-ext" rel="stylesheet">
-    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="bootstrap/js/bootstrap.js"></script>
 </head>
 
 <body>
@@ -36,7 +37,7 @@
 
 
 
-                <button class="order-button" type="button">Order one Now!</button>
+                <button class="btn btn-primary btn-lg" type="button">Order one Now!</button>
             </div>
 
             <a href="" class="scroll-down">Scroll down</a>
@@ -48,8 +49,8 @@
 
             <h1>I can help you with</h1>
 
-            <div class="clearfix">
-                <div class="col-xs-4">
+            <div class="row">
+                <div class="col-xs-12 col-sm-5 col-lg-4">
                     <div class="section-img"><i class="icon icon-design"></i></div>
                     <h2 class="section-content-title">Simple Website<br> Development
                     </h2>
@@ -59,7 +60,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-xs-4">
+                <div class="col-xs-12 col-sm-6 col-lg-4">
                     <div class="section-img"><i class="icon icon-galaxy"></i></div>
                     <h2 class="section-content-title">PSD to HTML5/CSS<br> conversion
                     </h2>
@@ -68,7 +69,7 @@
                             it into standart compliant HTML5/CSS.</p>
                     </div>
                 </div>
-                <div class="col-xs-4">
+                <div class="col-xs-12 col-sm-6 col-lg-4">
                     <div class="section-img"><i class="icon icon-spaceship"></i></div>
                     <h2 class="section-content-title">Front – End<br> Programming
                     </h2>
@@ -85,25 +86,25 @@
         <div class="container">
             <h1 class="in-touch-header">Get in touch</h1>
             <p class="stopping-by">Thank's for stopping by, I'd love to hear from you!</p>
-            <div class="clearfix">
-                <div class="col-xs-6 tell-more">
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-lg-6 tell-more">
                     <p class="tell-more-p">Tell me more about yourself. What procject are you working on? What is your estimated budged and project
                         time frame?</p>
                     <div class="location"></div>
                     <span class="icon-small icon-location"></span> Vilnius, Lithuania
                 </div>
 
-                <div class="col-xs-6 forms">
+                <div class="col-xs-12 col-sm-6 col-lg-6 forms">
                     <form action="/get-in-touch" method="post">
                         <div class="describe-website">
-                            <label>    
+                                
                     <textarea name="description" type="text" placeholder="Describe your next website"></textarea>
-                    </label>
+                    
                         </div>
                         <div class="email">
-                            <label>
+                           
                             <input type="email" name="email" placeholder="Your email">
-                        </label>
+                       
                         </div>
                         <div class="submit">
                             <input type="submit" value="Submit">
